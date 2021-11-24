@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&display=swap');
+
+      @font-face {
+          font-family: "harry";
+          src: url(HARRYP__.TTF);
+      }
+    
+
+
+
+.bgd{
+    background-color: #252323;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.caixaPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    min-height: 90vh;
+    height: fit-content;
+    width: 75vw;
+    font-size: 20px;
+    max-width: 80%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.7);
+                
+}
+
+.logo{
+    width: 36vw;
+    height: 42vh;
+    margin-bottom: 12px;
+    align-self: center;
+}
+
+
+.tituloJogo{
+    font-family: harry;
+    font-size: 72px;
+    font-weight: 800;
+
+}
+
+.gridOpcoes{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    padding-bottom: 12px;
+}
+
+.btnResp{
+    background-color:  #a89c9c6e;
+    border: 1px solid 	#000000;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+    outline: none;
+    height: auto;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.btnReiniciar{
+    background-color: #AA4A44;
+    border-radius: 5px #D22B2B;
+    padding: 5px 10px;
+    font-weight: bold;
+    outline: none;
+    font-family: 'Outfit', sans-serif;
+    height: auto;
+    
+
+}
+
+.beholder{
+    width: 360px;
+    height: 360px;
+    align-self: center;
+}
+    
