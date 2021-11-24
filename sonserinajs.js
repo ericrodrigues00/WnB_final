@@ -3,12 +3,12 @@ function clickPrompt2(){
     var respostaUser = prompt("Qual sua resposta?")
     console.log (respostaUser)
 
-    if(respostaUser === "2"){
+    if(respostaUser === "1"){
         
-        window.location.href = "sonserinaCena2.html";
-
-    } else if(respostaUser === "1"){
         window.location.href = "gameover_g4.html";
+
+    } else if(respostaUser === "2"){
+        window.location.href = "sonserinaCena2.html";
 
    
         
@@ -23,7 +23,7 @@ function clickPrompt3(){
 
     if(respostaUser === "1"){
         
-        window.location.href = "soncerinaCena3.html";
+        window.location.href = "sonserinaCena3.html";
 
     } else if(respostaUser === "2"){
         window.location.href = "gameover_g4.html"
