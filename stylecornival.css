@@ -20,6 +20,7 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    min-height: 80vh;
     height: fit-content;
     margin-top: auto;
     margin-bottom: 50px;
