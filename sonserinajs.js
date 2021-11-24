@@ -3,11 +3,11 @@ function clickPrompt2(){
     var respostaUser = prompt("Qual sua resposta?")
     console.log (respostaUser)
 
-    if(respostaUser === "1"){
+    if(respostaUser === "2"){
         
         window.location.href = "sonserinaCena2.html";
 
-    } else if(respostaUser === "2"){
+    } else if(respostaUser === "1"){
         window.location.href = "gameover_g4.html";
 
    
