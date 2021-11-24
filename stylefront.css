@@ -9,7 +9,7 @@
 
 
 .bgd{
-    background-color: #252323;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,10 +26,10 @@
     width: 75vw;
     font-size: 20px;
     max-width: 80%;
-    background-color: white;
+    background-color: rgb(237, 240, 197);
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.281);
                 
 }
 
