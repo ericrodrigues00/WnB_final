@@ -68,6 +68,8 @@
 .beholder{
     height: 36vh;
     width: inherit;
+    max-width: 360px;
+
     align-self: center;
 }
     
